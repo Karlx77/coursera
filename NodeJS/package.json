@@ -1,0 +1,19 @@
+{
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "certificacion",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karlx77/coursera.git"
+  },
+  "author": "Karla Agar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karlx77/coursera/issues"
+  },
+  "homepage": "https://github.com/Karlx77/coursera#readme"
+}
