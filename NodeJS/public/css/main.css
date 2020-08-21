@@ -15,6 +15,10 @@
     object-fit: cover;
 }
 
+.texto{
+   background: azure;
+   margin-top: 5px;
+}
 
 footer{
     background: #C6FFDD;
