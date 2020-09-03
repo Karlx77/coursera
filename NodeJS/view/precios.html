@@ -49,15 +49,15 @@
        </div>  
  
        <div class="container mt-4">    
-          <ul class="nav nav-tabs">
+          <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="list-group-item list-group-item-action active nav-link active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Precios</a>
+              <a class="list-group-item list-group-item-action active nav-link active" id="list-home-list" data-toggle="list" href="#list-home" role="pill" aria-controls="home">Precios</a>
             </li>
             <li class="nav-item">
-              <a class="list-group-item list-group-item-action nav-link" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Forma de Pago</a>
+              <a class="list-group-item list-group-item-action nav-link" id="list-profile-list" data-toggle="list" href="#list-profile" role="pill" aria-controls="profile">Forma de Pago</a>
             </li>
             <li class="nav-item">
-              <a class="list-group-item list-group-item-action nav-link" id="list-profile-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="profile">Opiniones</a>
+              <a class="list-group-item list-group-item-action nav-link" id="list-profile-list" data-toggle="list" href="#list-messages" role="pill" aria-controls="profile">Opiniones</a>
             </li>
           </ul>
               <div class="tab-content" id="nav-tabContent">
@@ -144,12 +144,52 @@
                   </div>
                 </div>
                 <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                 <div class="col-md-6 mt-4">
-                  <ul class="list-group list-group-flushs justify-content-center ">
-                    <li class="list-group-item">Targeta VISA</li>
-                    <li class="list-group-item">PayPal</li>
-                    <li class="list-group-item">Credito BNB</li>
-                  </ul>
+                 <div class="mt-4">
+                  <div class="accordion" id="accordionExample">
+                    <div class="card col-md-10">
+                      <div class="card-header accoordion-mt" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left text-black-50" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tarjeta Basica
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card col-md-10">
+                      <div class="card-header accoordion-mt" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left text-black-50 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Tarjeta VIP
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card col-md-10">
+                      <div class="card-header accoordion-mt" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left text-black-50 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Tarjeta Black
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                  </div>
                 </div>
                 <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>

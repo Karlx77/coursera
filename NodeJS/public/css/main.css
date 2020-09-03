@@ -34,3 +34,7 @@ footer{
     background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);	
 }
+
+.accoordion-mt{
+    background: white;
+}
