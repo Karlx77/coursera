@@ -131,7 +131,8 @@
             <h5 class="card-title">Hotel Solar</h5>            
             <h6 class="card-subtitle text-muted">Cochabamba Cercado</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
@@ -142,7 +143,8 @@
             <h5 class="card-title">Hotel Los Angeles</h5>
             <h6 class="card-subtitle text-muted">Vinto</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
@@ -153,7 +155,8 @@
             <h5 class="card-title">Hotel Bolivia</h5>
             <h6 class="card-subtitle text-muted">Tiquipaya</h6>            
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
@@ -164,7 +167,8 @@
             <h5 class="card-title">Hotel Estelar</h5>
             <h6 class="card-subtitle text-muted">Punata</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
@@ -175,7 +179,8 @@
             <h5 class="card-title">Cristales Hotel</h5>
             <h6 class="card-subtitle text-muted">Quillacollo</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
@@ -186,14 +191,42 @@
             <h5 class="card-title">Mexico</h5>
             <h6 class="card-subtitle text-muted">Vinto</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark btn-block">Reservar</a>
+            <button type="button" class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">contactar con el hotel</button>
+            <a href="#" class="btn btn-dark btn-block mt-1">Reservar</a>
           </div>
         </div>
       </div>
     
     </div>
   </div> <br><br>
-
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Email</label>
+              <input type="email" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Mensaje:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="">
       <div class="row">
           <div class="col-md-4 d-flex flex-column align-items-center mt-4">
