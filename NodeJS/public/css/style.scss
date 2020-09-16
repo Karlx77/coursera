@@ -1,0 +1,45 @@
+$rosa: #f7797d;
+$amarillo: #FBD786 ;
+$blanco:#C6FFDD;
+
+@mixin tamanio($widht,$height) {
+    width: $widht;
+    height: $height;
+}
+.jumbo{
+    background: $blanco;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $rosa, $amarillo, $blanco);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $rosa, $amarillo, $blanco); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* width:101%; */
+    /* display: inline-flex; */
+    margin-top: 50px;
+}
+.card{
+   display: inline-table;
+}
+.card-img-top{
+    @include tamanio(100%,15vw);
+    object-fit: cover;
+}
+
+.texto{
+   background: azure;
+   margin-top: 5px;
+}
+
+footer{
+    background: $blanco;
+    background: -webkit-linear-gradient(to right, $rosa, $amarillo, $blanco);
+    background: linear-gradient(to right, $rosa, $amarillo, $blanco);
+    @include tamanio(100%,150px);
+    display: inline-table;
+}
+#menu{
+    background: $blanco;
+    background: -webkit-linear-gradient(to right, $rosa, $amarillo, $blanco);
+    background: linear-gradient(to right, $rosa, $amarillo, $blanco);	
+}
+
+.accoordion-mt{
+    background: white;
+}
